@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>Gym Tracker</h1>
+
+    <div id="stats-container">
+        <h2>Progress Stats</h2>
+        <p><strong>Total Workouts:</strong> <span id="total-workouts"></span></p>
+        <p><strong>Most Frequent Exercise:</strong> <span id="most-frequent-exercise"></span></p>
+        <p><strong>Workouts per Month:</strong></p>
+        <ul id="workouts-per-month"></ul>
+    </div>
+
+    <div id="date-selector-container">
+        <label for="view-date">Select a date to view or add exercises:</label>
+        <input type="date" id="view-date">
+    </div>
+
+    <div id="daily-workout-view">
+        <!-- Content will be loaded here by script.js -->
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Stats Container */
+#stats-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#stats-container h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#stats-container p {
+    margin: 10px 0;
+    font-size: 1.05em;
+}
+
+#stats-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#stats-container li {
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+/* Date Selector */
+#date-selector-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#date-selector-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+#view-date {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px;
+    box-sizing: border-box;
+}
+
+/* Daily Workout View */
+.daily-workout-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.exercise-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.exercise-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.exercise-item:last-child {
+    border-bottom: none;
+}
+
+.exercise-item span {
+    font-size: 1.05em;
+}
+
+.delete-btn {
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    background-color: #e74c3c;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Daily Exercise Form */
+#daily-exercise-form {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    align-items: center;
+}
+
+#daily-exercise-form h3 {
+    grid-column: 1 / -1;
+    margin: 0 0 10px 0;
+}
+
+#daily-exercise-form input, #daily-exercise-form select, #daily-exercise-form button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#daily-exercise-form button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+    grid-column: 1 / -1;
+}
+
+#daily-exercise-form button:hover {
+    background-color: #2980b9;
+}
